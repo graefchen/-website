@@ -5,3 +5,4 @@ p{text-wrap:pretty}
 body{font-family:system-ui,sans-serif}
 h1{max-width:20ch}h2{max-width:25ch}
 p,li{max-width:55ch}
+@view-transition{navigation:auto}
