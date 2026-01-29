@@ -5,4 +5,6 @@ p{text-wrap:pretty}
 body{font-family:Georgia,serif}
 h1{max-width:20ch}h2{max-width:25ch}
 p,li{max-width:55ch}
+/* making page transitions look awesome */
 @view-transition{navigation:auto}
+img{max-width:min(100%,55ch);object-fit:cover}
