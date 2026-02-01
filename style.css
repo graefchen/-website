@@ -8,3 +8,5 @@ p,li{max-width:55ch}
 /* making page transitions look awesome */
 @view-transition{navigation:auto}
 img{max-width:min(100%,55ch);object-fit:cover}
+section>p:first-of-type:first-letter{--size:2lh;font-size:var(--size);
+  line-height:var(--size);padding-right:0.2em;float:left}
