@@ -8,5 +8,7 @@ p,li{max-width:55ch}
 /* making page transitions look awesome */
 @view-transition{navigation:auto}
 img{max-width:min(100%,55ch);object-fit:cover}
+/*i wished to use "initial-letter", but firefox does not support it... */
 section>p:first-of-type:first-letter{--size:2lh;font-size:var(--size);
-  line-height:var(--size);padding-right:0.2em;float:left}
+  line-height:var(--size);padding-right:0.2em;float:left;font-weight:700}
+ol{list-style-type:upper-roman}
