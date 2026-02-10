@@ -7,7 +7,8 @@ h1{max-width:20ch}h2{max-width:25ch}
 p,li{max-width:55ch}
 /* making page transitions look awesome */
 @view-transition{navigation:auto}
-img{max-width:min(100%,55ch);object-fit:cover}
+img{max-width:min(55ch,100%);object-fit:cover;display:block}
+img:has(+img){margin-bottom:0.5rem}
 /*i wished to use "initial-letter", but firefox does not support it... */
 section>p:first-of-type:first-letter{--size:2lh;font-size:var(--size);
   line-height:var(--size);padding-right:0.2em;float:left;font-weight:700}
