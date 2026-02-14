@@ -8,7 +8,7 @@
     "editor.suggest.insertMode": "replace",
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
-    "editor.formatOnType": true,
+    "editor.formatOnType": true
   },
   "editor.wordWrap": "on"
 }
